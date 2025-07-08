@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, send_file
 from flask import flash
 import getpass
 import os.path
-
+#start the app
 app = Flask(__name__)
 #get the username
 username = getpass.getuser()
